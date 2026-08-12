@@ -4,6 +4,8 @@
 
 一款面向 Windows 的本地 PDF 组卷工具：按指定顺序合并文件，生成可点击的文件清单和标题页，并将页面等比例适配为 A4。文件全程保留在本机。
 
+![PDF Merge Navigator 界面](docs/images/app-window.png)
+
 ## 中文说明
 
 ### 主要功能

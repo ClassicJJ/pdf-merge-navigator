@@ -103,6 +103,10 @@ def _capture_ui(paths: list[Path], output_path: Path) -> None:
     root.geometry("1080x720+40+40")
     app = PdfMergeApp(root)
     app.add_paths(paths)
+    for uid in app.document_tree.get_children():
+        values = list(app.document_tree.item(uid, "values"))
+        values[3] = r"C:\PDF Samples"
+        app.document_tree.item(uid, values=values)
     root.attributes("-topmost", True)
     root.update()
     left = root.winfo_rootx()
