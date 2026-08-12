@@ -1,0 +1,23 @@
+PDF Merge Navigator 使用以下第三方开源组件：
+
+1. pypdf
+   Copyright (c) pypdf contributors
+   License: BSD 3-Clause
+   https://github.com/py-pdf/pypdf
+
+2. ReportLab
+   Copyright (c) ReportLab Inc. and contributors
+   License: BSD
+   https://www.reportlab.com/
+
+3. tkinterdnd2 与 TkDND
+   Copyright (c) tkinterdnd2 and TkDND contributors
+   License: MIT
+   https://github.com/Eliav2/tkinterdnd2
+
+4. PyInstaller（仅用于构建）
+   Copyright (c) PyInstaller Development Team
+   License: GPL 2.0 with a special exception for distributing bundled applications
+   https://pyinstaller.org/
+
+完整许可文本和最新归属信息请参阅各项目随附的许可文件与官方网站。

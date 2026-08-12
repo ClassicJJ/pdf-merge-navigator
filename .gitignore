@@ -1,0 +1,15 @@
+.venv/
+build/
+dist/
+output/
+tmp/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.spec
+*.log
+
+# Local planning notes (not part of the public project)
+task_plan.md
+findings.md
+progress.md
