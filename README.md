@@ -1,10 +1,21 @@
 # PDF Merge Navigator
 
+[![Tests](https://github.com/ClassicJJ/pdf-merge-navigator/actions/workflows/tests.yml/badge.svg)](https://github.com/ClassicJJ/pdf-merge-navigator/actions/workflows/tests.yml)
+[![Latest release](https://img.shields.io/github/v/release/ClassicJJ/pdf-merge-navigator)](https://github.com/ClassicJJ/pdf-merge-navigator/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ClassicJJ/pdf-merge-navigator/total)](https://github.com/ClassicJJ/pdf-merge-navigator/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 [中文](#中文说明) · [English](#english)
 
 一款面向 Windows 的本地 PDF 组卷工具：按指定顺序合并文件，生成可点击的文件清单和标题页，并将页面等比例适配为 A4。文件全程保留在本机。
 
 ![PDF Merge Navigator 界面](docs/images/app-window.png)
+
+## 下载 Windows 版
+
+**[下载最新版 PDF-Merge-Navigator.exe](https://github.com/ClassicJJ/pdf-merge-navigator/releases/latest/download/PDF-Merge-Navigator.exe)**
+
+无需安装，下载后直接运行。Windows 可能会因为程序尚未进行商业代码签名而显示 SmartScreen 提示；请只从本项目的 GitHub Releases 下载。
 
 ## 中文说明
 
@@ -20,7 +31,7 @@
 
 ### 使用方法
 
-1. 从 GitHub Releases 下载 `PDF-Merge-Navigator.exe`。
+1. 从上面的链接或 [GitHub Releases](https://github.com/ClassicJJ/pdf-merge-navigator/releases) 下载 `PDF-Merge-Navigator.exe`。
 2. 双击运行，添加或拖入 PDF。
 3. 调整列表顺序，然后点击“开始合并”。
 4. 合并结果将保存到 Windows 桌面。
