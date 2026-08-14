@@ -1,0 +1,42 @@
+name: Feature request / 功能建议
+description: Suggest an improvement or new use case / 提出改进建议或新使用场景
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. Please describe the problem first so the proposed feature can be evaluated in context.
+
+        感谢你提出建议。请先说明实际问题或使用场景，便于判断功能是否真正有用。
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case / 使用场景
+      description: What are you trying to accomplish? / 你想完成什么工作？
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-problem
+    attributes:
+      label: Current difficulty / 当前困难
+      description: What is difficult or impossible with the current version? / 当前版本哪里不方便或无法满足需求？
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement / 建议的改进
+      description: Describe the smallest change that would solve the problem. / 请描述能够解决问题的最小改动。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives tried / 尝试过的替代方法
+      description: Optional. How do you handle this today? / 选填。你目前如何处理这个问题？
