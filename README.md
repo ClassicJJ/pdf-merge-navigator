@@ -86,6 +86,11 @@ Python 3.11 or newer is required. Follow the PowerShell commands in [从源码�
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Please report vulnerabilities according to [SECURITY.md](SECURITY.md) and never upload sensitive PDFs to a public Issue.
 
+## Feedback / 反馈
+
+- [Report a bug / 反馈错误](https://github.com/ClassicJJ/pdf-merge-navigator/issues/new?template=bug_report.yml)
+- [Request a feature / 提出功能建议](https://github.com/ClassicJJ/pdf-merge-navigator/issues/new?template=feature_request.yml)
+
 ## License
 
 Released under the [MIT License](LICENSE). Third-party components and their licenses are listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
